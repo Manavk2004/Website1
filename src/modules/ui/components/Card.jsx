@@ -11,7 +11,7 @@ function ProjectCard(props) {
         <Card.Text className='text-[#FFFFFF]/20'>
           {props.description}
         </Card.Text>
-        <Button variant="primary" className='bg-[#a995c9]/90! border-2 border-[#a995c9]!'>View {props.name}</Button>
+        <Button variant="primary" className='bg-[#a995c9]/90! border-2 border-[#a995c9]!' onClick={() => window.location.href=`${props.url}`}>View {props.name}</Button>
       </Card.Body>
     </Card>
   );
