@@ -8,14 +8,37 @@ import Projects from './modules/ui/Projects/Projects'
 import TechnologyBar from './modules/ui/components/TechnologyBar'
 import Skills from './modules/ui/components/Skills'
 import ToolsBar from './modules/ui/components/ToolsBar'
+import { useEffect, useState, useRef } from 'react'
 
 function App() {
+
+  const [background, setBackground] = useState("/musai.png")
+
+  const index = useRef(1)
+
+  const images = ["/musai.png", "musai2.png", "nimbus.png", "nimbushp.png", "nimbushp2.png"]
+
+  useEffect(() => {
+    setInterval(() => {
+      if(index.current === 5){
+        index.current = 1
+        setBackground(images[index.current])
+      }else{
+        index.current += 1
+        setBackground(images[index.current])
+      }
+    }, 3000)
+  }, [background])
+
+
   return (
     <>
-  <div className='bg-[url("/texture.jpg")] -z-1 w-full h-screen bg-[#1a1823]/97'>
-    <main className="bg-[#1a1823]/97 h-full w-screen flex flex-col ">
+  <div 
+    className=' -z-1 w-full h-screen bg-[#1a1823]/99 bg-[url(/musai2.png)]'
+  >
+    <main className="bg-[#1a1823]/93 h-full w-screen flex flex-col ">
       <Navigation/>
-      <div className='flex  items-center ml-15 mr-10 justify-between h-screen z-1'>
+      <div className='flex  items-center ml-15 mr-10 justify-between h-screen z-1 gap-50'>
         <LeftSide />
         <RightSide />
       </div>
