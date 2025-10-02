@@ -18,6 +18,7 @@ function App() {
   const [ contacts, showContact ] = useState(true)
   const [ transition, setTransition ] = useState(false)
   const [ techSection, setTechSection ] = useState("Languages")
+  const [ theState, newState ] = useState(null)
 
   useEffect(() => {
     setTransition(true)
