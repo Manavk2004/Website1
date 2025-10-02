@@ -1,2 +1,47 @@
-@import "tailwindcss"
+@import "tailwindcss";
 
+:root {
+    --color-bg1: rgb(0, 0, 0);
+    --color-bg2: rgba(60, 0, 240, 0.7);
+    --color1: 18, 113, 255;
+    --color2: 221, 74, 255;
+    --color3: 100, 220, 255;
+    --color4: 200, 50, 50;
+    --color5: 180, 180, 50;
+    --color-interactive: 140, 100, 55;
+    --circle-size: 80%;
+    --blending: hard-light;
+}
+
+.gradient-bg{
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
+} 
+
+
+.glowing-border{
+    border: 2px solid gray;
+    transition: box-shadow 0.4s
+}
+
+.glowing-border:hover{
+    box-shadow: 0 0 3px 1px
+}
+
+.header{
+    color: #8b5cf6;
+    font-family: "Bebas Neue";
+    font-size: 5rem;
+}
+
+.contact-button{
+    font-family: "Roboto";
+}
+
+.body{
+    font-family: "Roboto";
+}

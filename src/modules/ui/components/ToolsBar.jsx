@@ -1,6 +1,5 @@
 import React from 'react'
 import git from "/git.svg"
-import gh from "/gh.svg"
 import vscode from "/vscode.svg"
 import docker from "/docker.svg"
 import pycharm from "/pycharm.svg"

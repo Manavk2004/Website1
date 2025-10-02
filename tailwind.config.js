@@ -10,6 +10,10 @@ export default {
       animation: {
         slideInLeft: "slideInLeft 0.7s ease-out forwards",
       },
+      fontFamily: {
+        header: ["Bebas Neue"],
+        body: ["Roboto"]
+      }
     },
   },
   plugins: [],
