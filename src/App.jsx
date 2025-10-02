@@ -15,7 +15,7 @@ import LanguageCard from './modules/ui/side-components/LanguageCard'
 
 function App() {
 
-  const [ contacts, showContact ] = useState(true)
+  const [ contacts, showContact ] = useState(false)
   const [ transition, setTransition ] = useState(false)
   const [ techSection, setTechSection ] = useState("Languages")
   const [ theState, newState ] = useState(null)
