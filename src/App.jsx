@@ -84,7 +84,7 @@ function App() {
           <LanguageCard image={"/go.svg"} name={"GoLang"} col={"col-start-11 col-end-13"} row={"row-start-3 row-end-5"} />
           <LanguageCard image={"/html.svg"} name={"HTML5"} col={"col-start-3 col-end-5"} row={"row-start-6 row-end-10"} />
           <LanguageCard image={"/css.png"} name={"CSS3"} col={"col-start-6 col-end-8"} row={"row-start-6 row-end-10"} />
-          <LanguageCard image={"/sql.svg"} name={"CSS3"} col={"col-start-9 col-end-11"} row={"row-start-6 row-end-10"} />
+          <LanguageCard image={"/sql.svg"} name={"PostgreSQL"} col={"col-start-9 col-end-11"} row={"row-start-6 row-end-10"} />
         </>
       }
       {techSection === "Frontend" &&
