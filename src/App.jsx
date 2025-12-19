@@ -80,7 +80,7 @@ function App() {
         <>
           <LanguageCard image={"/python.svg"} name={"Python"} col={"col-start-2 col-end-4"} row={"row-start-3 row-end-5"} />
           <LanguageCard image={"/js.svg"} name={"JavaScript"} col={"col-start-5 col-end-7"} row={"row-start-3 row-end-5"} />
-          <LanguageCard image={"/ts.svg"} name={"Python"} col={"col-start-8 col-end-10"} row={"row-start-3 row-end-5"} />
+          <LanguageCard image={"/ts.svg"} name={"Typescript"} col={"col-start-8 col-end-10"} row={"row-start-3 row-end-5"} />
           <LanguageCard image={"/go.svg"} name={"GoLang"} col={"col-start-11 col-end-13"} row={"row-start-3 row-end-5"} />
           <LanguageCard image={"/html.svg"} name={"HTML5"} col={"col-start-3 col-end-5"} row={"row-start-6 row-end-10"} />
           <LanguageCard image={"/css.png"} name={"CSS3"} col={"col-start-6 col-end-8"} row={"row-start-6 row-end-10"} />
